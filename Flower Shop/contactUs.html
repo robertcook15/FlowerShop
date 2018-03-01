@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" id="closebtn">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Shoping Gallery</a>
+        <a href="orderForm.html">Order Form</a>
+        <a href="aboutPage.html">About Page</a>
+        <a href="contactUs.html">Contact Us</a>
+
+    </div>
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+        <span id="menu">&#9776; Menu</span>        
+    </div>
+    <div id="container">
+        <h1>Contact Us.<br>Let us know how our service was.</h1>	
+	<div id="tableContact">
+		<table>
+		<tr>
+			<th>Corprate Headquarters</th>
+			<th class="pad">General Contact</th>
+		</tr>
+		<tr>
+			<td>Corprate Headquarters</td>
+			<td class="pad">Toll-Free: 888-876-7777</td>		
+		</tr>
+		<tr>
+			<td>Flower Shop</td>
+			<td class="pad">Phone: 707-707-0007</td>		
+		</tr>
+		<tr>
+			<td>1986 Ceadar Drive, Suite 8888</td>
+			<td class="pad">Fax: 707-707-1234</td>		
+		</tr>
+		<tr>
+			<td>Salt Lake, UT 84015</td>
+			<td class="pad">Email: office@FlowerShop.com</td>		
+		</tr>
+		</table>
+		<table class="padTab">
+		<tr>
+			<th>Sales Info & Inquiries</th>
+			<th class="pad">International Sales</th>
+		</tr>
+		<tr>
+			<td>Toll-Free: 800-845-8777</td>
+			<td class="pad">Email: International@FlowerShop.com</td>		
+		</tr>
+		<tr>
+			<td>Email: info@FlowerShop.com</td>
+			<td class="pad">Phone: 757-879-7000</td>		
+		</tr>
+		<tr>
+			<td></td>
+			<td class="pad">Schedule: Monday - Thursday 1:15 AM to 10:30 PM ET </td>		
+		</tr>
+		<tr>
+			<td></td>
+			<td class="pad">| Friday 7:30 AM to 10:30 PM ET</td>		
+		</tr>
+		</table>		
+	</div><br>
+    <div id="map"></div>
+    </div>
+    <script type="text/javascript" src="mapMarker.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSHFXAgROtWOIbQ0imN1x5iMVgsuv9mgc&callback=initMap"></script>	
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="orderCost.js"></script>
+</body>
+</html>
